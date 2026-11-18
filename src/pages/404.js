@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import Seo from "../components/Seo"
 
 const pageStyles = {
   color: "#232129",
@@ -46,4 +47,13 @@ const NotFoundPage = () => {
 
 export default NotFoundPage
 
-export const Head = () => <title>Not found</title>
+export const Head = ({ location }) => (
+  <Seo
+    title="Página não encontrada"
+    description="A página que você procura não foi encontrada. Explore outros destinos no Viagens pelo Mundo."
+    image="/og-default.jpg"
+    pathname={location.pathname}
+  />
+)
+
+{/* Desenvolvido com ajuda de IA.*/}

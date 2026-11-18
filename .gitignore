@@ -1,3 +1,13 @@
 node_modules/
 .cache/
 public
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Arquivos temporários
+*.log
+.DS_Store
+coverage/
