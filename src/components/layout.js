@@ -10,7 +10,7 @@ export default function Layout({ children }) {
                 <h3>Viagens pelo Mundo!</h3>
                 <nav className="topnav">
                     <Link to="/">Início</Link>
-                    <Link to="blog">Blog</Link>
+                    <Link to="/blog">Blog</Link>
                 </nav>
             </div>
             <div className="main">
