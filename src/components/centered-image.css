@@ -1,8 +1,8 @@
 .centered-image {
   display: block;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 {/* Desenvolvido com ajuda de IA.*/}
